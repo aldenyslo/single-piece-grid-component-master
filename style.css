@@ -120,7 +120,7 @@ body {
     font-size: 1.2rem;
 }
 
-.join-desc h2 {
+.money-back {
     color: var(--clr-primary-300);
     font-weight: var(--fw-medium);
     font-size: 1rem;
@@ -164,8 +164,10 @@ body {
 }
 
 .signup {
-    border: none;
     background-color: var(--clr-primary-300);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
     color: inherit;
     font-weight: var(--fw-medium);
     padding: 0.6rem;
